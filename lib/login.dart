@@ -69,6 +69,7 @@ class LoginScreenState extends State<LoginScreen> {
 
   Future<Null> handleSignIn() async {
     prefs = await SharedPreferences.getInstance();
+      print("IMEHEEeeeeeeeeeeeeeeeeeereerererererererererrererersssssssssssss");
 
     this.setState(() {
       isLoading = true;
@@ -81,6 +82,7 @@ class LoginScreenState extends State<LoginScreen> {
       idToken: googleAuth.idToken,
     );
     if (firebaseUser != null) {
+      print("IMEHEEeeeeeeeeeeeeeeeeeereerererererererererrererer");
       // Check is already sign up
       final QuerySnapshot result =
           await Firestore.instance.collection('users').where('id', isEqualTo: firebaseUser.uid).getDocuments();

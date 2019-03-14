@@ -1,27 +1,35 @@
 {
   "project_info": {
-    "project_number": "347976604232",
-    "firebase_url": "https://flutterchatdemo.firebaseio.com",
-    "project_id": "flutterchatdemo",
-    "storage_bucket": "flutterchatdemo.appspot.com"
+    "project_number": "342195267357",
+    "firebase_url": "https://chat-73f7e.firebaseio.com",
+    "project_id": "chat-73f7e",
+    "storage_bucket": "chat-73f7e.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:347976604232:android:5e864cb592d93aaa",
+        "mobilesdk_app_id": "1:342195267357:android:9a58e55ca273e5e7",
         "android_client_info": {
-          "package_name": "com.dfa.flutterchatdemo"
+          "package_name": "com.example.adinochatv3"
         }
       },
       "oauth_client": [
         {
-          "client_id": "347976604232-k6p3475tsg23qhdgtdjqlb952udl5p9g.apps.googleusercontent.com",
+          "client_id": "342195267357-vsptatv1bcrr17dne779cvavllmct71m.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.adinochatv3",
+            "certificate_hash": "1818c93c5f0e40858e88d7617648c887f2f094de"
+          }
+        },
+        {
+          "client_id": "342195267357-d3t1b3ffvfebsnrrpu6ii6draaeacmpn.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyBoAoZZDb5Mzf8C8WUU6r9WHZvFWmusGN8"
+          "current_key": "AIzaSyCZqwzzBVs2cpZN34vDfw-20DRoyg5Vbt0"
         }
       ],
       "services": {
@@ -29,8 +37,13 @@
           "status": 1
         },
         "appinvite_service": {
-          "status": 1,
-          "other_platform_oauth_client": []
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "342195267357-d3t1b3ffvfebsnrrpu6ii6draaeacmpn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
         },
         "ads_service": {
           "status": 2
